@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/page_background"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Administration_main_page">
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="AdminiStration Page"/>
+
+
+
+    <LinearLayout
+        android:layout_width="340dp"
+        android:layout_height="420dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/border_radius"
+        android:layout_marginTop="100dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginTop="0dp"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            android:text="Upload Hospital Staff Time table"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="upload"
+            android:id="@+id/upload"
+            android:onClick="upload"
+            android:textColor="#ffffff"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/custom_button"
+            android:layout_marginLeft="-220dp"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/image"
+            android:layout_marginTop="160dp"
+            android:layout_marginLeft="-130dp"/>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Submit"
+            android:onClick="upload_img"
+            android:background="@drawable/submit_button"
+            android:layout_marginLeft="-120dp"
+            android:layout_marginTop="330dp"
+            /></LinearLayout>
+    <LinearLayout
+        android:layout_width="340dp"
+        android:background="@drawable/border_radius"
+        android:layout_height="80dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="10dp"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:onClick="astatus"
+        android:src="@drawable/ic_appointment_status"
+        android:layout_marginTop="-65dp"
+        android:layout_marginLeft="50dp"/>
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="15dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="10dp"
+        android:layout_marginTop="5dp"
+        android:text="STATUS"
+        android:layout_marginLeft="50dp"/>
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:onClick="atimetable"
+        android:src="@drawable/ic_time_table"
+        android:layout_marginTop="-50dp"
+        android:layout_marginLeft="125dp"/>
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="15dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="10dp"
+        android:layout_marginTop="5dp"
+        android:text="TIME TABLE"
+        android:layout_marginLeft="115dp"/>
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:onClick="alogout"
+        android:background="@drawable/image_radius"
+        android:src="@drawable/ic_logout"
+        android:layout_marginTop="-50dp"
+        android:layout_marginLeft="195dp"/>
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="15dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="10dp"
+        android:layout_marginTop="5dp"
+        android:text="Logout"
+        android:layout_marginLeft="195dp"/>
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:onClick="asettings"
+        android:background="@drawable/image_radius"
+        android:src="@drawable/ic_settings"
+        android:layout_marginTop="-50dp"
+        android:layout_marginLeft="268dp"/>
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="15dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="10dp"
+        android:layout_marginTop="5dp"
+        android:text="Settings"
+        android:layout_marginLeft="270dp"/>
+
+
+
+
+</LinearLayout>

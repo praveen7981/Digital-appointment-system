@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Consult</string>
+
+    <string-array name="diseas">
+        <item>Select your problem</item>
+        <item>Fevar</item>
+        <item>Cold</item>
+        <item>Headache</item>
+        <item>Stomach pain</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="tablets">
+        <item>Select Tablets</item>
+        <item>Paracitmal</item>
+        <item>Dichlone</item>
+        <item>Citrazen</item>
+    </string-array>
+
+    <string-array name="count">
+        <item>count</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+    </string-array>
+</resources>

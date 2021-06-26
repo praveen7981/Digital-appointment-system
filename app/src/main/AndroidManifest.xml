@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.example.consult">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <dist:module dist:instant="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".emergencypage"></activity>
+        <activity android:name=".doctorfetchapp" />
+        <activity android:name=".searchid" />
+        <activity
+            android:name=".Search"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Emergency"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Time_table"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Doctor_mainpage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".register_doctor"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Login_doctor"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Administration_main_page"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Login_administration"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Register_administration"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Admin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".op_status"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Login_all"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

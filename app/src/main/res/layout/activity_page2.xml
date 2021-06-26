@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/page_background"
+    tools:context=".page2">
+
+
+
+    <ImageView
+        android:id="@+id/title"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/image_radius"
+        android:src="@mipmap/home_icon" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="-20dp"
+        android:layout_marginTop="20dp"
+        android:text="Rajiv Gandhi University of Knowledge Technologies-SKLM"
+        android:textAlignment="center"
+        android:textColor="@color/orange"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="160dp"
+
+        android:layout_marginLeft="-350dp"
+        android:layout_marginTop="120dp">
+
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_button"
+            android:onClick="Login"
+            android:text="Login"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="-320dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/emergency_buttin"
+            android:onClick="emer"
+            android:text="Emergency"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/blink"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="-150dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginBottom="10dp"
+            android:text="-> Before register Appointment  check the time table of the Hospital Management System."
+            android:textColor="@color/light_pink"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+        <TextView
+            android:id="@+id/nexttime"
+            android:layout_width="80dp"
+            android:textAlignment="center"
+            android:textSize="10dp"
+            android:layout_marginLeft="-80dp"
+            android:layout_marginTop="40dp"
+            android:textColor="@color/blaack"
+            android:layout_height="15dp"
+            android:text="nexttime"/>
+        <TextView
+            android:id="@+id/inc"
+            android:layout_width="80dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="-40dp"
+            android:layout_marginTop="80dp"
+            android:text="next"
+            android:textAlignment="center"
+            android:textColor="@color/blaack"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="80dp"
+            android:textAlignment="center"
+            android:textSize="10dp"
+            android:layout_marginLeft="-80dp"
+            android:layout_marginTop="100dp"
+            android:textColor="@color/blaack"
+            android:layout_height="15dp"
+            android:text="ap"/>
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="80dp"
+            android:textAlignment="center"
+            android:textSize="10dp"
+            android:layout_marginLeft="-80dp"
+            android:layout_marginTop="120dp"
+            android:textColor="@color/blaack"
+            android:layout_height="15dp"
+            android:text=""/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="340dp"
+        android:layout_marginLeft="-350dp"
+        android:layout_marginTop="290dp"
+        android:background="@drawable/border_radius"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/get"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            android:text="Register OP"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+
+        <EditText
+            android:id="@+id/id"
+            android:layout_width="280dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:textAlignment="center"
+            android:drawableLeft="@drawable/ic_id"
+            android:background="@drawable/image_radius"
+            android:hint="ID Number"
+            android:padding="20dp"
+            android:textColorHint="@color/blaack"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/name"
+            android:textAlignment="center"
+            android:layout_width="280dp"
+            android:layout_height="70dp"
+            android:padding="20dp"
+            android:drawableLeft="@drawable/ic_profile"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/image_radius"
+            android:hint="Full Name"
+            android:textColorHint="@color/blaack"
+            android:textSize="18dp"
+            android:textStyle="italic" />
+
+        <Spinner
+            android:id="@+id/problem"
+            android:layout_width="280dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/image_radius"
+            android:entries="@array/diseas"
+            android:padding="20dp"
+            android:textAlignment="center"
+            android:textColorHint="@color/blaack"
+            android:textStyle="italic"
+
+            />
+
+        <Button
+            android:id="@+id/visible"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:visibility="gone"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/submit_button"
+            android:onClick="register"
+            android:text="Submit" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="-320dp"
+        android:layout_marginTop="650dp"
+        android:background="@drawable/border_radius" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="-300dp"
+        android:layout_marginTop="655dp"
+        android:onClick="home"
+        android:src="@drawable/ic_home" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="-32dp"
+        android:layout_marginTop="680dp"
+        android:text="HOME"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="655dp"
+        android:onClick="status"
+        android:src="@drawable/ic_appointment_status" />
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="-40dp"
+        android:layout_marginTop="680dp"
+        android:text="STATUS"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="655dp"
+        android:onClick="timetable"
+        android:src="@drawable/ic_time_table" />
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="-50dp"
+        android:layout_marginTop="680dp"
+        android:text="TIME TABLE"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="655dp"
+        android:onClick="search"
+        android:src="@drawable/ic_search" />
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="-40dp"
+        android:layout_marginTop="680dp"
+        android:text="Search"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

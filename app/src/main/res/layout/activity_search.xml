@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/page_background"
+    tools:context=".op_status"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="620dp"
+        android:text="Appointment Status"
+        android:textColor="@color/red"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="80dp"
+        android:textAlignment="center"
+        android:textSize="50dp"
+        android:id="@+id/ti"
+        android:layout_marginBottom="50dp"
+        android:layout_height="100dp"/>
+<Button
+    android:layout_width="520dp"
+    android:layout_height="150dp"
+    android:layout_marginTop="150dp"
+    android:layout_marginLeft="130dp"
+    android:text="Click for Next appointment Number"
+    android:textColor="@color/white"
+    android:onClick="search"
+    android:textStyle="bold"
+    android:textSize="30dp"
+    android:background="@drawable/custom_button"
+    android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/search"
+        android:layout_width="600dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_height="580dp"
+        android:background="@drawable/image_radius"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="350dp"/>
+</RelativeLayout>

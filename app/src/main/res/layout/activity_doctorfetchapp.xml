@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/page_background"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".doctorfetchapp">
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Retrive Today's Total Appointments"
+        android:onClick="fetchall"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/custom_button"
+        />
+    <EditText
+        android:id="@+id/fetchall"
+        android:layout_width="380dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:layout_height="600dp"
+        android:background="@drawable/image_radius"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"/>
+
+
+</LinearLayout>

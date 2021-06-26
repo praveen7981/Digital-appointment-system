@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/page_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Time_table">
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Hospital Time Table"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:layout_marginTop="150dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+    <Button
+        android:layout_width="150dp"
+        android:background="@drawable/custom_button"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:onClick="view"
+        android:text="View Time table"/>
+    <ImageView
+        android:id="@+id/timetable"
+        android:layout_width="380dp"
+        android:layout_margin="20dp"
+        android:layout_height="500dp"/>
+
+</LinearLayout>

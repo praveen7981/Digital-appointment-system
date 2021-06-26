@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/page_background"
+    android:layout_height="match_parent"
+    tools:context=".searchid">
+
+    <EditText
+        android:id="@+id/search"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:hint="Enter college id number"
+        android:textStyle="bold"
+        android:textColorHint="@color/blaack"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="0dp"
+        android:drawablePadding="10dp"
+        android:background="@drawable/image_radius"
+        android:drawableLeft="@drawable/ic_searchbar"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Search"
+        android:onClick="search"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/custom_button"
+        android:layout_marginLeft="-220dp"/>
+    <EditText
+        android:id="@+id/find"
+        android:layout_width="300dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_height="300dp"
+        android:background="@drawable/image_radius"
+        android:layout_marginLeft="-240dp"
+        android:layout_marginTop="300dp"/>
+
+</LinearLayout>

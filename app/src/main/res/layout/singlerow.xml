@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical"
+        android:background="@drawable/page_background"
+        android:layout_height="300dp"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/asid"
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="40dp"
+            android:textColor="@color/blaack"
+            android:textSize="18dp"
+            android:textAlignment="center"
+            android:text="Student Id"
+            android:background="@drawable/image_radius"/>
+        <TextView
+            android:id="@+id/aname"
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/blaack"
+            android:textSize="18dp"
+            android:textAlignment="center"
+            android:text="Student Name"
+            android:background="@drawable/image_radius"/>
+        <TextView
+            android:id="@+id/aproblem"
+            android:layout_width="180dp"
+            android:layout_marginLeft="40dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/blaack"
+            android:textSize="18dp"
+            android:textAlignment="center"
+            android:text="Student Problem"
+            android:background="@drawable/image_radius"/>
+        <TextView
+            android:id="@+id/adate"
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/blaack"
+            android:textSize="18dp"
+            android:textAlignment="center"
+            android:text="Date of Registratio"
+            android:background="@drawable/image_radius"/>
+        <TextView
+            android:id="@+id/aapp"
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/blaack"
+            android:textSize="18dp"
+            android:textAlignment="center"
+            android:text="Appointment No"
+            android:background="@drawable/image_radius"/>
+        <Button
+            android:layout_width="100dp"
+            android:text="Delete"
+            android:layout_marginTop="-100dp"
+            android:layout_marginLeft="250dp"
+            android:textColor="@color/white"
+            android:background="@drawable/emergency_buttin"
+            android:layout_height="40dp"/>
+    </LinearLayout>
+
+</LinearLayout>
